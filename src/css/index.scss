@@ -4,17 +4,80 @@
     }
 }
 
+//标签
 #tags {
     div {
-        margin-top: 15px;
-        ul {
-            li {
+        p {
+            width: 100%;
+            padding: 7px 15px;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: #eee;
+        }
+        .tags_1 {
+            padding: 0 15px;
+            .manytags {
                 margin: 10px 0;
                 a {
-                    font-size: 15px;
-                    margin: 3px 4px;
+                    font-size: 14px;
+                    margin: 2px 0;
                     text-decoration: none;
                 }
+            }
+            .manytags_special {
+                a {
+                    font-size: 14px;
+                    margin: 5px 0;
+                    text-decoration: none;
+                }
+            }
+        }
+        .tags_2 {
+            padding: 0 15px;
+            li {
+                margin: 8px 0;
+                span {
+                    // font-weight: bold;
+                    font-size: 16px;
+                }
+                p {
+                    background-color: darkorange;
+                    color: #1e7e34;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+                a {
+                    color: black;
+                    font-size: 14.5px;
+                    margin-right: 4px;
+                }
+                a:hover {
+                    font-size: 14.5px;
+                    color: #fff;
+                    background-color: #00cc99;
+                    text-decoration: blink;
+                }
+            }
+        }
+    }
+}
+
+//图集
+#altas {
+    div {
+        p {
+            width: 100%;
+            padding: 7px 15px;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: #eee;
+        }
+        .img_display {
+            margin-top: 15px;
+            img {
+                height: auto;
+                display: block;
+                max-width: 100%;
             }
         }
     }
