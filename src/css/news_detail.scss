@@ -1,0 +1,17 @@
+#news_article {
+    .row {
+        .article_left {
+            padding: 0 0;
+            nav {
+                // margin-bottom: -16px;
+                ol {
+                    padding: 7px 16px;
+                }
+            }
+            .article_content {
+                margin-top: 10px;
+                border: 1px solid #e9ecef;
+            }
+        }
+    }
+}
