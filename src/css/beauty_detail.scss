@@ -10,25 +10,42 @@
             }
             .article_content {
                 margin-top: 10px;
-                border: 1px solid #e9ecef;
-                .beauty_header {
-                    border-bottom: 1px dashed #eee;
-                }
-                .person_detail {
-                    .imgss {
-                        img {
-                            width: 80%;
-                            height: auto;
+                .person_info {
+                    border: 1px solid #e9ecef;
+                    .beauty_header {
+                        border-bottom: 1px dashed #eee;
+                    }
+                    .info {
+                        .imgss {
+                            img {
+                                width: 80%;
+                                height: auto;
+                            }
+                        }
+                        .rate {
+                            .score {
+                                font-size: 60px;
+                            }
+                            p {
+                                font-size: 15px;
+                                padding: 10px 0;
+                            }
                         }
                     }
-                    .rate {
-                        .score {
-                            font-size: 60px;
-                        }
-                        p {
-                            font-size: 15px;
-                            padding: 10px 0;
-                        }
+                }
+                .person_detail {
+                    border: 1px solid #e9ecef;
+                    .title {
+                        width: 100%;
+                        padding: 7px 15px;
+                        font-size: 20px;
+                        font-weight: bold;
+                        background-color: #eee;
+                    }
+                    .detail_body {
+                        width: 100%;
+                        padding: 15px 15px;
+                        font-size: 15px;
                     }
                 }
             }
