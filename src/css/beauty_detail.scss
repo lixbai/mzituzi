@@ -48,28 +48,99 @@
                         font-size: 15px;
                     }
                 }
+                .person_album {
+                    border: 1px solid #e9ecef;
+                    .title {
+                        width: 100%;
+                        padding: 7px 15px;
+                        font-size: 20px;
+                        font-weight: bold;
+                        background-color: #eee;
+                    }
+                    .img_display {
+                        margin-top: 15px;
+                        .thumbnail {
+                            .imgs_link {
+                                img {
+                                    height: auto;
+                                    display: block;
+                                    width: 100%;
+                                }
+                            }
+                            .imgs_title {
+                                .title_height {
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    display: -webkit-box;
+                                    font-size: 14px;
+                                    line-height: 1.2rem;
+                                    margin-top: 7px;
+                                    margin-bottom: -5px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .hot_beauty_list {
+                    border: 1px solid #e9ecef;
+                    p {
+                        width: 100%;
+                        padding: 7px 15px;
+                        font-size: 20px;
+                        font-weight: bold;
+                        background-color: #eee;
+                    }
+                    .beauty_img_display {
+                        margin-top: 15px;
+                        .thumbnail {
+                            .imgs_link {
+                                img {
+                                    height: auto;
+                                    display: block;
+                                    width: 100%;
+                                }
+                            }
+                            .beauty_imgs_title {
+                                .title_height {
+                                    // text-align: center;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    display: -webkit-box;
+                                    font-size: 14px;
+                                    line-height: 1.2rem;
+                                    margin-top: 7px;
+                                    margin-bottom: -5px;
+                                    padding: 0 3px;
+                                    a:hover {
+                                        font-size: 14.5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
-        .article_right {
-            .hot_news_title {
-                width: 100%;
-                padding: 7px 15px;
-                font-size: 20px;
-                font-weight: bold;
-                color: #fff;
+    }
+    .article_right {
+        .hot_news_title {
+            width: 100%;
+            padding: 7px 15px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #fff;
+        }
+        .hot_news {
+            margin-bottom: 10px;
+            border: 1px solid #e9ecef;
+            .row {
+                padding-left: 5px;
+                height: 100px;
+                overflow: hidden;
+                border-bottom: 1px dashed #17a2b8;
             }
-            .hot_news {
-                margin-bottom: 10px;
-                border: 1px solid #e9ecef;
-                .row {
-                    padding-left: 5px;
-                    height: 100px;
-                    overflow: hidden;
-                    border-bottom: 1px dashed #17a2b8;
-                }
-                .row:last-child {
-                    border: none;
-                }
+            .row:last-child {
+                border: none;
             }
         }
     }
