@@ -1,0 +1,19 @@
+#download {
+    .row {
+        .download_left {
+            a {
+                color: darkgray;
+            }
+        }
+        .download_middle {
+            .unit {
+                .left_part {
+                    width: 150px;
+                    img {
+                        width: 120px;
+                    }
+                }
+            }
+        }
+    }
+}
