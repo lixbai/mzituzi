@@ -1,0 +1,61 @@
+body {
+    // background-color: #eee;
+}
+
+#picshow {
+    .row {
+        background-color: #eee;
+        .desc_1 {
+            .album_title {
+                h1 {
+                    font-size: 30px;
+                    font-weight: 500;
+                }
+                .album_tags {
+                    a {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .desc_2 {
+            p {
+                font-size: 13px;
+            }
+        }
+        .album_photos {
+            padding: 0 0;
+            .photos {
+                #pic {
+                    li {
+                        border: 1px solid #eee;
+                        img {
+                            border: 5px solid #fff;
+                            margin: 7px 0;
+                            // width: 100%;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 推荐
+#suggest_album {
+    row {
+        div {
+            ul {
+                li {
+                    a {
+                        img {
+                            width: 220px;
+                            height: 330px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
