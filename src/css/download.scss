@@ -2,15 +2,32 @@
     .row {
         .download_left {
             a {
-                color: darkgray;
+                color: black;
             }
         }
         .download_middle {
-            .unit {
-                .left_part {
-                    width: 150px;
+            .news_item {
+                .media {
+                    border-bottom: 1px solid #ccc;
                     img {
                         width: 120px;
+                    }
+                    .media-body {
+                        h1 {
+                            font-size: larger;
+                            font-weight: bolder;
+                            margin-bottom: 10px;
+                        }
+                        p {
+                            color: #878787;
+                            font-size: 14px;
+                            line-height: 22px;
+                        }
+                        .news_item_meta {
+                            a {
+                                font-size: 14px;
+                            }
+                        }
                     }
                 }
             }
